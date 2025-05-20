@@ -12,7 +12,7 @@ public class ChessApp extends Application {
         GameController controller = new GameController();
         ChessBoardView boardView = new ChessBoardView(controller);
 
-        Scene scene = new Scene(boardView, 640, 640);
+        Scene scene = new Scene(boardView, 1920, 1080);
         primaryStage.setTitle("Ajedrez Bot");
         primaryStage.setScene(scene);
         primaryStage.show();

@@ -28,7 +28,7 @@ public class ChessBoardView extends GridPane {
         for (int row = 0; row < 8; row++) {
             for (int col = 0; col < 8; col++) {
                 StackPane cell = new StackPane();
-                Rectangle square = new Rectangle(80, 80);
+                Rectangle square = new Rectangle(240, 135);
                 square.setFill((row + col) % 2 == 0 ? Color.BEIGE : Color.DARKGRAY);
                 cell.getChildren().add(square);
 
